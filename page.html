@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Índice calidad de vida por comunas </title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Diferencias sociales en distintas regiones de Chile</option>
+            <option value="page.html" selected>Índice calidad de vida por comunas </option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Diferencias sociales en distintas regiones de Chile</a></h1>
+        </header>
+        <section>
+            <h2>La desigualdad en Chile según ICVU 2019</h2>
+            <p>El Índice de Calidad de Vida Urbana(ICVU)mide y compara entérminos relativos la calidad de vida urbana de comunas y ciudades en Chile, a partir de un conjunto de variables referidas
+a seis dimensiones que expresan el estado de situación en
+la provisión de bienes y servicios públicos y privados a la
+población residente y sus correspondientes impactos socioterritoriales, tanto a escala de ciudades intermedias como
+metropolitana.</p>
+            <p>Las 6 dimensiones del ICVU</p>
+            <!-- ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dl -->
+            <dl>
+                <dt>CONDICIONES LABORALES</dt>
+                <dd>Condiciones laborales de la población residente en términos de ingreso,condiciones contractuales, costo de vida y nivel de endeudamiento.</dd>
+                <dt>AMBIENTEDE NEGOCIOS</dt>
+                <dd>Capacidad de atraer actividad económica y nuevos emprendimientos,desarrollos inmobiliarios y nuevos servicios públicos y privados</dd>
+                <dt>CONDICIONES SOCIOCULTURALES</dt>
+                <dd>Aspectos relativos al desarrollo de capital social, conforme la oferta y resultados en educación, participación ciudadana y convivencia social.</dd>
+                <dt>CONECTIVIDAD Y MOVILIDAD </dt>
+                <dd>Acceso y proximidad a los servicios asociados al transporte público, nivel de exposición a accidentes de tránsito y conexión a internet.</dd>
+                <dt>SALUD Y MEDIOAMBIENTE</dt>
+                <dd>Acceso y proximidad a la red de salud, carencias en materia de salud y nivel de exposición ambiental en su entorno.</dd>
+                <dt>VIVIENDA Y ENTORNO</dt>
+                <dd>Estado de precariedad de la vivienda, así como condición del espacio público en términos de su mantenimiento y nivel de inseguridad en los barrios.</dd>
+            </dl>
+            <p>Índices por comunas de distintas regiones del territorio nacional</p>
+
+            <table>
+                <tr>
+                    <th>Comuna</th>
+                    <th>Región</th>
+                    <th>ICVU 2019</th>
+                </tr>
+                <tr>
+                    <td>Iquique</td>
+                    <td>Tarapacá</td>
+                    <td>58,06</td>
+                </tr>
+                <tr>
+                    <td>Antofagasta</td>
+                    <td>Antofagasta</td>
+                    <td>59,29</td>
+                </tr>
+                <tr>
+                    <td>Concón</td>
+                    <td>Valparíso</td>
+                    <td>64,45</td>
+                </tr>
+                <tr>
+                    <td>Vitacura</td>
+                    <td>Metropolitana</td>
+                    <td>75,59</td>
+                </tr>
+                 <tr>
+                    <td>San Miguel</td>
+                    <td>Metropolitana</td>
+                    <td>58,53</td>
+                </tr>
+                <tr>
+                    <td>Machalí</td>
+                    <td>O'higgins</td>
+                    <td>61,6</td>
+                </tr>
+                <tr>
+                    <td>Concepción</td>
+                    <td>Bio bio</td>
+                    <td>60,39</td>
+                </tr>
+                <tr>
+                    <td>Valdivia</td>
+                    <td>Los Ríos</td>
+                    <td>59,75</td>
+                </tr>
+                <tr>
+                    <td>Puerto Varas</td>
+                    <td>Los Lagos</td>
+                    <td>58,18</td>
+                </tr>
+                 <tr>
+                    <td>Punta Arenas</td>
+                    <td>Magallanes</td>
+                    <td>61,79</td>
+                </tr>
+            </table>
+
+            <p>RANGO SUPERIOR= Puntaje mayor a (58,0).RANGO PROMEDIO= Puntaje entre (50,6 y 58,0).RANGO INFERIOR= Puntaje menor a (50,6). Puedes <a href="index.html">volver a la página portada</a>.</p>
+
+        </section>
+        <footer>
+            <hr>
+            <p>Muriel Muñoz &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
